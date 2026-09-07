@@ -1,0 +1,26 @@
+a{
+text-decoration: none;
+color: #146bd4;
+}
+p{
+    color: #4f4d4d;
+}
+
+ul {
+    list-style: none;
+}
+li{
+    color: #4f4d4d;
+    margin-bottom: px;
+}
+ul ::before {
+    content: "\2022";
+    color: #5498ec;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+h5{
+    color: #4f4d4d;
+}
+
