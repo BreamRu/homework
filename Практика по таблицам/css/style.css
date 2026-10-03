@@ -29,7 +29,7 @@ td {
 }
 
 
-.calendar tr:ntg-child(2) th {
+.calendar tr:nth-child(2) th {
     height: 60px;
     font-size: 32px;
     font-weight: bold;
