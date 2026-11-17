@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px ;
+    padding-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link,
+.phone {
+    color: #000;
+}
+
+.phone {
+    text-decoration: none;
+}
